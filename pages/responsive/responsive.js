@@ -8,7 +8,7 @@ const qrcodeWidth = rpx2px(300)
 
 Page({
   data: {
-    text: 'https://github.com/tomfriwel/weapp-qrcode',
+    text: 'https:/data.alibaba.com',
     image: '',
     // 用于设置wxml里canvas的width和height样式
     qrcodeWidth: qrcodeWidth,
@@ -19,7 +19,7 @@ Page({
     const z = this
     qrcode = new QRCode('canvas', {
       usingIn: this, // usingIn 如果放到组件里使用需要加这个参数
-      // text: "https://github.com/tomfriwel/weapp-qrcode",
+      // text: "https:/data.alibaba.com",
       image: '/images/bg.jpg',
       width: qrcodeWidth,
       height: qrcodeWidth,

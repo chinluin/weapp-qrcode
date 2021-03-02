@@ -9,7 +9,7 @@ const qrcodeWidth = rpx2px(300)
 
 Page({
   data: {
-    text: 'https://github.com/tomfriwel/weapp-qrcode',
+    text: 'https:/data.alibaba.com',
     qrcodeWidth: qrcodeWidth,
     image: '',
   },
@@ -19,7 +19,7 @@ Page({
     const z = this
     qrcode = new QRCode('canvas', {
       usingIn: this,
-      // text: "https://github.com/tomfriwel/weapp-qrcode",
+      // text: "https:/data.alibaba.com",
       image: '/images/bg.jpg',
       width: qrcodeWidth,
       height: qrcodeWidth,
